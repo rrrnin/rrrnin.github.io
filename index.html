@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tocori</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>나의 2차 창작 활동 - Kim Yerin</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+        /* Reset and basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Libre Franklin', sans-serif;
             background-color: #f5f5f5;
@@ -15,6 +20,7 @@
             line-height: 1.6;
             padding: 0 20px;
         }
+
         header {
             background-color: #282828;
             color: #fff;
@@ -24,22 +30,26 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-bottom: 3px solid #444;
         }
+
         .header-content {
             max-width: 800px;
             margin: 0 auto;
         }
+
         h1 {
             font-size: 3em;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
+
         .quote {
             font-style: italic;
             margin-top: 10px;
             font-size: 1.2em;
             color: #666;
         }
+
         nav {
             background-color: #333;
             color: #fff;
@@ -48,16 +58,19 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 2em;
         }
+
         nav ul {
             list-style: none;
             display: flex;
             justify-content: center;
             gap: 20px;
         }
+
         nav ul li {
             display: flex;
             align-items: center;
         }
+
         nav ul li a {
             color: #fff;
             text-decoration: none;
@@ -66,20 +79,25 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
+
         nav ul li a:hover {
             background-color: #555;
         }
+
         nav ul li a i {
             margin-right: 8px;
         }
+
         main {
             max-width: 1000px;
             margin: 0 auto;
         }
+
         section {
             padding: 2em 0;
             text-align: center;
         }
+
         section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 0.5em;
@@ -87,30 +105,36 @@
             font-size: 2em;
             text-transform: uppercase;
         }
+
         .content-sections {
             display: flex;
             gap: 20px;
             justify-content: space-around;
             flex-wrap: wrap;
         }
+
         .content-sections section {
             flex: 1 1 30%;
         }
+
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 10px;
             justify-content: center;
         }
+
         .gallery img {
             width: 100%;
             border-radius: 10px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
+
         .gallery img:hover {
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+
         footer {
             background-color: #282828;
             color: #fff;
@@ -118,6 +142,7 @@
             padding: 1em 0;
             margin-top: 2em;
         }
+
         footer p {
             font-size: 0.9em;
         }
@@ -126,16 +151,16 @@
 <body>
     <header>
         <div class="header-content">
-            <h1><i class="fas fa-feather-alt"></i> My Secondary Creative Activities</h1>
+            <h1><i class="fas fa-feather-alt"></i> My Secondary Creative Activities - Kim Yerin</h1>
             <blockquote class="quote">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</blockquote>
         </div>
     </header>
     <nav>
         <ul>
-            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#idols"><i class="fas fa-music"></i> Idols</a></li>
-            <li><a href="#webtoons"><i class="fas fa-book"></i> Webtoons</a></li>
-            <li><a href="#animations"><i class="fas fa-film"></i> Animations</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="idols.html"><i class="fas fa-music"></i> Idols</a></li>
+            <li><a href="webtoons.html"><i class="fas fa-book"></i> Webtoons</a></li>
+            <li><a href="animations.html"><i class="fas fa-film"></i> Animations</a></li>
         </ul>
     </nav>
     <main>
@@ -166,7 +191,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>&copy; 2024 Kim Yerin. All rights reserved.</p>
     </footer>
     <script src="https://unpkg.com/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
     <script src="script.js"></script>
